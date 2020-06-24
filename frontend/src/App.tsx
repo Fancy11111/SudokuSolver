@@ -1,13 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Field } from './Field/Field';
+import { Group } from './Group/Group';
+import { Board } from './Board/Board';
+
+
+let initState = (function(){
+  let arr: number[] = [];
+  for(let i = 0; i < 81; i++){
+    arr.push(0);
+  }
+  return arr;
+});
 
 function App() {
+  let counter = 0;
   return (
     <div className="App">
-      <header>
-        <h1>Sudoku Solver</h1>
-      </header>
+      <Board size={81}></Board>
     </div>
   );
 }

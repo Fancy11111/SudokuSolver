@@ -1,0 +1,30 @@
+.field{
+  width: 80px;
+  height: 80px;
+  border: 1px solid gray;
+}
+
+.field:hover {
+  background-color: rgb(216, 213, 213);
+}
+
+.field-input{
+  width: 80px;
+  height: 80px;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  text-align: center;
+}
+
+.field-input:hover {
+  background-color: rgb(245, 238, 238);
+}
+
+.field-input:active {
+  background-color: rgb(199, 199, 255);
+}
+
+.selected {
+  background-color: rgb(245, 238, 238);
+}

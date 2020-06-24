@@ -1,0 +1,17 @@
+.field {
+  height: 80px;
+  width: 80px;
+  border: 2px solid black;
+}
+
+.maybes {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.maybe {
+  border: 1px dashed black;
+}
